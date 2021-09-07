@@ -1,0 +1,664 @@
+@font-face {
+  font-family: "Fira Sans", sans-serif;
+  src: url("../fonts/FiraSans-Regular.ttf");
+}
+* li {
+  list-style: none;
+}
+* a {
+  text-decoration: none;
+}
+* ul {
+  padding: 0px;
+}
+* header #top-nav {
+  padding: 9px;
+  background-color: #f7f7f7;
+}
+* header #top-nav .social-icon ul li a i {
+  font-size: 17px;
+}
+* header #top-nav .account ul .profile {
+  border-right: 1px solid black;
+}
+* header #top-nav ul {
+  display: flex;
+  margin-top: 10px;
+}
+* header #top-nav ul li a {
+  margin-right: 16px;
+  color: #666;
+  font-size: 15px;
+  font-weight: 600;
+}
+* header #top-nav ul li a:hover {
+  color: #005fb5;
+}
+* header #info .info-menu {
+  padding: 23px;
+  margin-right: -16px;
+}
+* header #info .info-menu .nav-icon {
+  font-size: 27px;
+  color: #005fb5;
+}
+* header #info .info-menu .information {
+  font-size: 15px;
+}
+* header #info .info-menu .information span {
+  color: #656565;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+* header #info .logo {
+  width: 135px;
+  margin-top: 8px;
+}
+* header #info .logo img {
+  width: 100%;
+  margin-left: 30px;
+}
+* header nav {
+  padding: 5px;
+  background-color: #005fb5;
+}
+* header nav ul {
+  display: flex;
+}
+* header nav ul li {
+  margin-top: 10px;
+}
+* header nav ul li a {
+  margin-right: 19px;
+  font-size: 17px;
+  color: white;
+}
+* header nav ul li a:hover {
+  color: #ffab03;
+  transition: 0.4s;
+}
+* main #top-image .background-image {
+  position: relative;
+}
+* main #top-image .background-image img {
+  width: 100%;
+}
+* main #top-image .background-image .content {
+  position: absolute;
+  top: 125px;
+  color: white;
+  left: 111px;
+  text-align: center;
+  text-transform: uppercase;
+}
+* main #top-image .background-image .content span {
+  color: #ffab03;
+}
+* main #top-image .background-image .content .title h2 {
+  font-size: 45px;
+}
+* main #top-image .background-image .content .title h1 {
+  font-size: 55px;
+}
+* main #top-image .background-image .content .top-search {
+  margin-top: 60px;
+}
+* main #top-image .background-image .content .top-search .list-country select {
+  width: 280px;
+  height: 55px;
+  border-radius: 38px;
+  padding: 15px;
+  border: none;
+}
+* main #top-image .background-image .content .top-search .number-input input {
+  width: 270px;
+  height: 55px;
+  border-radius: 38px;
+  border: none;
+  padding: 15px;
+}
+* main #top-image .background-image .content .top-search .number-input .list-weight select {
+  width: 58px;
+  height: 54px;
+  border-radius: 15px;
+  border: none;
+  padding: 6px;
+}
+* main #top-image .background-image .content .top-search .delivery {
+  background-color: #ffab03;
+  padding: 13px;
+  border-radius: 27px;
+  width: 293px;
+  font-size: 17px;
+}
+* main #top-image .background-image .content .top-search .delivery span {
+  color: white;
+  margin-bottom: 15px;
+  border-right: 1px solid;
+}
+* main #top-image .background-image .content .top-search .delivery .result {
+  margin-left: 20px;
+  border: none;
+  color: black;
+}
+* main #feature {
+  color: #454545;
+  padding-top: 40px;
+  background-color: #f5f5f5;
+  padding-bottom: 70px;
+}
+* main #feature .title h1 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+* main #feature .sub-title {
+  margin-top: 30px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+* main #feature .underline {
+  background-color: #ffab03;
+  width: 100px;
+  height: 4px;
+  margin-top: 10px;
+}
+* main #feature .feature-title {
+  margin-top: 40px;
+  font-size: 23px;
+  letter-spacing: 0.3px;
+}
+* main #feature span {
+  font-size: 14px;
+}
+* main #feature .icon i {
+  font-size: 100px;
+  color: #005fb5;
+}
+* main #advantage {
+  height: 676px;
+}
+* main #advantage .background-img {
+  width: 675px;
+  position: relative;
+}
+* main #advantage .background-img img {
+  width: 100%;
+}
+* main #advantage .advantage-content {
+  position: relative;
+  bottom: 670px;
+  left: 30px;
+}
+* main #advantage .advantage-content .underline {
+  width: 100px;
+  height: 4px;
+  background-color: #005fb5;
+  margin-left: 3px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+* main #advantage .advantage-content h5 {
+  font-size: 25px;
+  letter-spacing: 0.3px;
+  margin-top: 5px;
+  color: #005fb5;
+}
+* main #advantage .advantage-content p {
+  line-height: 1.3;
+}
+* main #advantage .advantage-content .advantage-title {
+  font-size: 30px;
+}
+* main #advantage .icon {
+  font-size: 50px;
+  color: #292626;
+}
+* main #new-info {
+  padding-top: 35px;
+  background-color: #f7f7f7;
+  padding-bottom: 50px;
+}
+* main #new-info .info-title {
+  text-align: center;
+}
+* main #new-info .info-title h2 {
+  font-size: 40px;
+  letter-spacing: 3px;
+  color: #454545;
+  font-weight: 400;
+}
+* main #new-info .underline {
+  background-color: #ffab03;
+  width: 100px;
+  height: 4px;
+  margin-bottom: 34px;
+}
+* main .tabs {
+  padding-bottom: 40px;
+}
+* main .tabs .tab-button {
+  background-color: white;
+  padding: 3px 18px 3px 18px;
+  border-radius: 5px;
+}
+* main .tabs .tab-button a {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+* main #tariffs-section {
+  background-color: #f7f7f7;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+* main #tariffs-section .delivery-tariffs ul {
+  background-color: white;
+  padding-top: 12px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-bottom: 12px;
+  border-radius: 4px;
+  box-shadow: 2px 4px 9px 4px #b8b8b8;
+}
+* main #tariffs-section .delivery-tariffs ul li a {
+  margin-right: 35px;
+  color: black;
+}
+* main #tariffs-section .delivery-tariffs ul li a img {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+* main #tariffs-section .delivery-tariffs .note {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 13px;
+  color: #005fb5;
+}
+* main #tariffs-section .price-table {
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 2px 4px 9px 4px #b8b8b8;
+}
+* main #tariffs-section .price-table .prices {
+  padding-bottom: 12px;
+  padding-top: 12px;
+  justify-content: space-between;
+}
+* main #tariffs-section .courier-tariffs .select-op {
+  justify-content: center;
+}
+* main #tariffs-section .courier-tariffs .select-op select {
+  padding-left: 0px;
+  width: 300px;
+  border-radius: 6px;
+  height: 40px;
+  border: none;
+  box-shadow: 2px 4px 9px 4px #b8b8b8;
+  color: #03618a;
+}
+* main #terms .top-img {
+  position: relative;
+}
+* main #terms .top-img img {
+  width: 100%;
+  height: 176px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+* main #terms .top-img .title {
+  position: absolute;
+  top: 45px;
+  left: 515px;
+  text-align: center;
+  color: #ffab03;
+}
+* main #terms .top-img .title span {
+  font-size: 19px;
+  letter-spacing: 1px;
+  padding-left: 5px;
+}
+* main #terms .top-img .title span a {
+  color: #ffab03;
+  padding-right: 5px;
+}
+* main #terms-content {
+  background-color: #f8f8f8;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+* main #terms-content p {
+  letter-spacing: 1px;
+}
+* main #terms-content .links h6 {
+  background-color: #005fb5;
+  color: white;
+  padding: 15px;
+}
+* main #terms-content .links ul {
+  background-color: white;
+  padding-left: 0px;
+}
+* main #terms-content .links ul li {
+  padding-top: 15px;
+  padding-left: 5px;
+}
+* main #terms-content .links ul li a {
+  font-size: 14px;
+  color: black;
+}
+* main .info-card:hover .img-info {
+  box-shadow: none;
+  transition-duration: 0.7s;
+}
+* main .info-card:hover .title-info {
+  color: #ffab03;
+  transition-duration: 0.5s;
+}
+* main .info-card .img-info {
+  padding: 5px 5px 10px 5px;
+  box-shadow: 6px 4px 18px 4px #454545;
+}
+* main .info-card .img-info img {
+  width: 100%;
+}
+* main .info-card .title-info {
+  padding: 10px;
+  font-size: 18px;
+  color: black;
+}
+* main .info-card span {
+  padding: 10px;
+  color: #666;
+  font-size: 12px;
+}
+* main #services-list {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+* main #services-list .img-info {
+  width: 100%;
+}
+* main #services-list .img-info img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+* main #questions {
+  background-color: #f2f5fe;
+  padding-top: 30px;
+}
+* main #questions h3 {
+  margin-bottom: 25px;
+}
+* main #questions ul {
+  background-color: white;
+  padding-left: 0px;
+}
+* main #questions ul li {
+  padding: 8px;
+}
+* main #questions ul li a {
+  color: black;
+}
+* main #shops-icons {
+  padding-top: 30px;
+  background-color: #f8f8f8;
+}
+* main #shops-icons ul {
+  text-align: center;
+}
+* main #shops-icons ul li {
+  padding: 20px 25px 8px 25px;
+}
+* main #shops-icons ul li a {
+  color: black;
+}
+* main #shops-icons .shop-logo {
+  text-align: center;
+}
+* main #shops-icons .shop-logo img {
+  width: 100%;
+}
+* main #shops-icons .shop-logo p {
+  background-color: #ffab03;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+* main #contact {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+* main #contact .tabs .tab-button {
+  padding: 12px 14px 12px 14px;
+}
+* main #contact ul li {
+  padding-right: 35px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+* main #contact ul li a {
+  font-size: 17px;
+  color: #656565;
+}
+* main #contact .address {
+  padding-left: 36px;
+}
+* main #contact .address li {
+  color: #656565;
+}
+* main #contact .address li i {
+  padding-right: 20px;
+  color: #005fb5;
+}
+* main #register {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+* main #register .tabs .tab-button {
+  padding: 12px 14px 12px 14px;
+}
+* main #register .tabs .active {
+  background-color: #ffab03;
+}
+* main #register .tabs .active a {
+  color: white;
+}
+* main #register .business {
+  position: relative;
+}
+* main #register form label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 16px;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+}
+* main #register form input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+}
+* main #register form select {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 35px;
+}
+* main #register form .small {
+  width: 13%;
+  display: inline;
+}
+* main #register form .select-input {
+  width: 85%;
+}
+* main #register form .phone-prefix {
+  width: 22%;
+}
+* main #register form span {
+  display: block;
+  font-size: 12px;
+  color: #656565;
+}
+* main #register form .register-button a {
+  border: 2px solid #005fb5;
+  color: #005fb5;
+  text-align: center;
+  padding: 10px 100px 10px 100px;
+  border-radius: 26px;
+  margin-top: 30px;
+}
+* main #login label {
+  margin-top: 40px;
+  display: block;
+  margin-bottom: 10px;
+  color: #656565;
+}
+* main #login input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px black solid;
+}
+* main #login h2 {
+  margin-top: 40px;
+  color: #005fb5;
+}
+* main #login .links-login {
+  font-size: 12px;
+  margin-top: 40px;
+}
+* main #login .links-login a {
+  display: block;
+  color: #656565;
+}
+* main #login .links-login a:hover {
+  text-decoration: underline;
+  color: #005fb5;
+}
+* main #login .login-btn {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+* main #login .login-btn a {
+  font-size: 18px;
+  padding: 14px 60px 14px 60px;
+  border: 2px solid #005fb5;
+  border-radius: 40px;
+}
+* main #login .login-btn a:hover {
+  background-color: #005fb5;
+  color: white;
+  transition-duration: 0.3s;
+}
+* main #dashboard {
+  padding-top: 30px;
+  background-color: #f7f7f7;
+}
+* main #dashboard .person-info {
+  padding: 20px;
+  background-color: white;
+}
+* main #dashboard .person-info .name {
+  font-size: 35px;
+}
+* main #dashboard .person-info .dash-button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+* main #dashboard .person-info .dash-button:hover {
+  background-color: #005fb5;
+  color: white;
+}
+* main #dashboard .person-info .balance li {
+  margin-top: 10px;
+  margin-right: 50px;
+  padding: 10px 23px 10px 23px;
+  background-color: #005fb5;
+  color: white;
+  border-radius: 5px;
+}
+* main #dashboard .person-info .balance li span {
+  display: block;
+}
+* main #dashboard .dashboard-menu .dashboard-links {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: white;
+}
+* main #dashboard .dashboard-menu .dashboard-links li {
+  margin-top: 10px;
+}
+* main #dashboard .dashboard-menu .dashboard-links li a {
+  color: #454545;
+  padding: 10px 20px 15px 20px;
+}
+* main #dashboard .dashboard-menu .dashboard-links li .active {
+  background-color: #ffab03;
+}
+* main #dashboard .dashboard-menu .address .tabs-list li {
+  padding: 20px 25px 10px 25px;
+}
+* main #dashboard .dashboard-menu .address .tabs-list .active {
+  background-color: white;
+}
+* main #dashboard .dashboard-menu .address .tabs-list .tab-shop {
+  padding-top: 10px;
+}
+* main #dashboard .dashboard-menu .address .tab-contents {
+  background-color: white;
+}
+* main #dashboard .dashboard-menu .address .tab-contents .content {
+  padding: 14px;
+}
+* main #dashboard .dashboard-menu .address .tab-contents .content span {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+}
+* main #dashboard .dashboard-menu .address .tab-contents .content i {
+  font-size: 23px;
+  color: rgba(0, 0, 0, 0.2);
+}
+* main #dashboard .dashboard-menu .order {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+* main #dashboard .dashboard-menu .order ul li {
+  padding: 10px 23px 10px 10px;
+}
+* main #dashboard .dashboard-menu .order ul li a {
+  color: #212529;
+}
+* main #dashboard .dashboard-menu .order ul .active {
+  background-color: #005fb5;
+}
+* main #dashboard .dashboard-menu .order ul .active a {
+  color: white;
+}
+* footer #main-footer {
+  padding-top: 30px;
+  background-color: #212529;
+}
+* footer #main-footer a {
+  color: white;
+}
+* footer #main-footer .icons {
+  padding: 0px 15px 15px 15px;
+}
+* footer #main-footer .icons img {
+  width: 100%;
+  padding: 0px 8px 8px 8px;
+}
+* footer #end-footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+* footer #end-footer .end-title {
+  font-size: 14px;
+  color: #666;
+}/*# sourceMappingURL=style.css.map */
