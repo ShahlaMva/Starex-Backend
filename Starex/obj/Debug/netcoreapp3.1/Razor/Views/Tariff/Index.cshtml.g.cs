@@ -19,8 +19,22 @@ using Starex;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\Code\Desktop\Starex-Backend\Starex\Views\_ViewImports.cshtml"
+using Starex.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\Code\Desktop\Starex-Backend\Starex\Views\_ViewImports.cshtml"
+using Starex.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8679d471022ceb857f955fd6bddc5f43111c8308", @"/Views/Tariff/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f5369ddb8149ca7782912ce7604e77203f2e8e78", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8667c366791b0057d7075b5178e192edc7459277", @"/Views/_ViewImports.cshtml")]
     public class Views_Tariff_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("src", new global::Microsoft.AspNetCore.Html.HtmlString("~/../img/country/1593519148_662743_US.png"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -92,7 +106,7 @@ using Starex;
             BeginWriteAttribute("href", " href=\"", 918, "\"", 925, 0);
             EndWriteAttribute();
             WriteLiteral(">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "8679d471022ceb857f955fd6bddc5f43111c83087081", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "8679d471022ceb857f955fd6bddc5f43111c83087429", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -110,7 +124,7 @@ using Starex;
             BeginWriteAttribute("href", " href=\"", 1070, "\"", 1077, 0);
             EndWriteAttribute();
             WriteLiteral(">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "8679d471022ceb857f955fd6bddc5f43111c83088419", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "8679d471022ceb857f955fd6bddc5f43111c83088767", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -128,7 +142,7 @@ using Starex;
             BeginWriteAttribute("href", " href=\"", 1255, "\"", 1262, 0);
             EndWriteAttribute();
             WriteLiteral(">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "8679d471022ceb857f955fd6bddc5f43111c83089789", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "8679d471022ceb857f955fd6bddc5f43111c830810137", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -146,7 +160,7 @@ using Starex;
             BeginWriteAttribute("href", " href=\"", 1442, "\"", 1449, 0);
             EndWriteAttribute();
             WriteLiteral(">\r\n                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "8679d471022ceb857f955fd6bddc5f43111c830811203", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "8679d471022ceb857f955fd6bddc5f43111c830811552", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -164,7 +178,7 @@ using Starex;
             BeginWriteAttribute("href", " href=\"", 1744, "\"", 1751, 0);
             EndWriteAttribute();
             WriteLiteral(">\r\n                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "8679d471022ceb857f955fd6bddc5f43111c830812694", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "8679d471022ceb857f955fd6bddc5f43111c830813043", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -234,7 +248,7 @@ using Starex;
             BeginWriteAttribute("id", " id=\"", 4689, "\"", 4694, 0);
             EndWriteAttribute();
             WriteLiteral(">\r\n                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8679d471022ceb857f955fd6bddc5f43111c830817028", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8679d471022ceb857f955fd6bddc5f43111c830817377", async() => {
                 WriteLiteral("BAKI");
             }
             );
@@ -250,7 +264,7 @@ using Starex;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8679d471022ceb857f955fd6bddc5f43111c830818222", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8679d471022ceb857f955fd6bddc5f43111c830818571", async() => {
                 WriteLiteral("GƏNCƏ");
             }
             );
@@ -266,7 +280,7 @@ using Starex;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8679d471022ceb857f955fd6bddc5f43111c830819417", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8679d471022ceb857f955fd6bddc5f43111c830819766", async() => {
                 WriteLiteral("SUMQAYIT");
             }
             );
@@ -282,7 +296,7 @@ using Starex;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8679d471022ceb857f955fd6bddc5f43111c830820615", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8679d471022ceb857f955fd6bddc5f43111c830820964", async() => {
                 WriteLiteral("MİNGƏÇEVİR");
             }
             );
@@ -303,7 +317,7 @@ using Starex;
             BeginWriteAttribute("id", " id=\"", 5170, "\"", 5175, 0);
             EndWriteAttribute();
             WriteLiteral(">\r\n                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8679d471022ceb857f955fd6bddc5f43111c830822260", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8679d471022ceb857f955fd6bddc5f43111c830822609", async() => {
                 WriteLiteral("Bakı 28 may");
             }
             );
@@ -319,7 +333,7 @@ using Starex;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8679d471022ceb857f955fd6bddc5f43111c830823461", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8679d471022ceb857f955fd6bddc5f43111c830823810", async() => {
                 WriteLiteral("Bakı Gənclik");
             }
             );
@@ -335,7 +349,7 @@ using Starex;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8679d471022ceb857f955fd6bddc5f43111c830824663", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8679d471022ceb857f955fd6bddc5f43111c830825012", async() => {
                 WriteLiteral("SUMQAYIT");
             }
             );
@@ -351,7 +365,7 @@ using Starex;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8679d471022ceb857f955fd6bddc5f43111c830825861", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8679d471022ceb857f955fd6bddc5f43111c830826210", async() => {
                 WriteLiteral("MİNGƏÇEVİR");
             }
             );

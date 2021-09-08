@@ -19,8 +19,22 @@ using Starex;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\Code\Desktop\Starex-Backend\Starex\Views\_ViewImports.cshtml"
+using Starex.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\Code\Desktop\Starex-Backend\Starex\Views\_ViewImports.cshtml"
+using Starex.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c265913cca01329a3a8f0f2e6ab5eae4d27b10ba", @"/Views/News/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f5369ddb8149ca7782912ce7604e77203f2e8e78", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8667c366791b0057d7075b5178e192edc7459277", @"/Views/_ViewImports.cshtml")]
     public class Views_News_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("src", new global::Microsoft.AspNetCore.Html.HtmlString("~/../img/service-background.webp"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -63,7 +77,7 @@ using Starex;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<main>\r\n    <section id=\"terms\">\r\n        <div class=\"top-img\">\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c265913cca01329a3a8f0f2e6ab5eae4d27b10ba5414", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c265913cca01329a3a8f0f2e6ab5eae4d27b10ba5762", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -94,7 +108,7 @@ using Starex;
             BeginWriteAttribute("href", " href=\"", 646, "\"", 653, 0);
             EndWriteAttribute();
             WriteLiteral(">\r\n                        <div class=\"img-info\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c265913cca01329a3a8f0f2e6ab5eae4d27b10ba7373", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c265913cca01329a3a8f0f2e6ab5eae4d27b10ba7721", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -123,7 +137,7 @@ using Starex;
             BeginWriteAttribute("href", " href=\"", 1136, "\"", 1143, 0);
             EndWriteAttribute();
             WriteLiteral(">\r\n                        <div class=\"img-info\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c265913cca01329a3a8f0f2e6ab5eae4d27b10ba9060", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c265913cca01329a3a8f0f2e6ab5eae4d27b10ba9408", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -151,7 +165,7 @@ using Starex;
             BeginWriteAttribute("href", " href=\"", 1640, "\"", 1647, 0);
             EndWriteAttribute();
             WriteLiteral(">\r\n                        <div class=\"img-info\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c265913cca01329a3a8f0f2e6ab5eae4d27b10ba10753", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c265913cca01329a3a8f0f2e6ab5eae4d27b10ba11101", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -179,7 +193,7 @@ using Starex;
             BeginWriteAttribute("href", " href=\"", 2148, "\"", 2155, 0);
             EndWriteAttribute();
             WriteLiteral(">\r\n                        <div class=\"img-info\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c265913cca01329a3a8f0f2e6ab5eae4d27b10ba12438", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c265913cca01329a3a8f0f2e6ab5eae4d27b10ba12786", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -207,7 +221,7 @@ using Starex;
             BeginWriteAttribute("href", " href=\"", 2627, "\"", 2634, 0);
             EndWriteAttribute();
             WriteLiteral(">\r\n                        <div class=\"img-info\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c265913cca01329a3a8f0f2e6ab5eae4d27b10ba14123", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c265913cca01329a3a8f0f2e6ab5eae4d27b10ba14471", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -235,7 +249,7 @@ using Starex;
             BeginWriteAttribute("href", " href=\"", 3135, "\"", 3142, 0);
             EndWriteAttribute();
             WriteLiteral(">\r\n                        <div class=\"img-info\">\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c265913cca01329a3a8f0f2e6ab5eae4d27b10ba15808", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c265913cca01329a3a8f0f2e6ab5eae4d27b10ba16156", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

@@ -1,4 +1,4 @@
-﻿
+﻿@model RegisterVM
 @{
     ViewData["Title"] = "Register";
 }
@@ -25,18 +25,20 @@
                             <div class="row">
                                 <div class="col-6">
                                     <label for="">Ad (ingilis hərflərilə)</label>
-                                    <input class="register-input" type="text">
+                                    <input asp-for="UserName" class="register-input" type="text">
+                                    <span asp-validation-for="UserName" class="text-danger"></span>
+
                                     <label for="">Cinsinizi seçin</label>
-                                    <select class="register-input" name="" id="">
-                                        <option value="">Kişi</option>
-                                        <option value="">Qadın</option>
+                                    <select id="gender" class="register-input" name="">
+                                        <option value="Men">Kişi</option>
+                                        <option value="Women">Qadın</option>
                                     </select>
 
 
                                 </div>
                                 <div class="col-6">
                                     <label for="">Soyad (ingilis hərflərilə)</label>
-                                    <input class="register-input" type="text">
+                                    <input asp-for="Age" class="register-input" type="text">
                                     <label for="">Doğum tarixi</label>
                                     <input class="register-input" style="margin-top:10px" type="date">
 
@@ -45,21 +47,15 @@
                             <div class="row">
                                 <div class="col-12">
                                     <label for="">Ünvan</label>
-                                    <input class="register-input" type="text" placeholder="Məs: Bakı şəhəri, C.Kərimov küç. 18. ev 9">
+                                    <input asp-for="Address" class="register-input" type="text" placeholder="Məs: Bakı şəhəri, C.Kərimov küç. 18. ev 9">
                                 </div>
                                 <div class="col-12">
                                     <label for="">Bağlamaları təhvil almaq istədiyiniz filial</label>
-                                    <select class="register-input" name="" id="">
-                                        <option value="">
-                                            BAKI - 28 May: Fikrət Əmirov küç. 6 (Hökumət evinin arxası)
-                                        </option>
-                                        <option value="">
-                                            BAKI - Gənclik: Atatürk prospekti, 4A (Gənclik metrosunun yanı)
-                                        </option>
-                                        <option value="">
-                                            BAKI - Xalqlar Dostluğu: Xətai rayonu, Məhəmməd Hadi küçəsi 2
-                                        </option>
-                                        <option value="">BAKI - İnşaatçılar: Şərifzadə küçəsi 174</option>
+                                    <select class="register-input" name="BranchAddressId" id="BranchAddressId">
+                                        @foreach (Branch branch in ViewBag.BranchAddress)
+                                        {
+                                            <option value="@branch.Id">@branch.BranchName</option>
+                                        }
 
                                     </select>
                                 </div>
@@ -67,50 +63,50 @@
                             <div class="row">
                                 <div class="col-6">
                                     <label for="">Şəxsiyyət vəsiqəsinin seriya və nömrəsi</label>
-                                    <select class="small register-input" style="padding-top:8px;" name="" id="">
-                                        <option value="">
+                                    <select class="small register-input" style="padding-top:8px;" name="" id="cardSeria">
+                                        <option value=" AZE">
                                             AZE
                                         </option>
-                                        <option value="">
+                                        <option value=" AA">
                                             AA
                                         </option>
-                                        <option value="">
+                                        <option value="MYİ">
                                             MYİ
                                         </option>
-                                        <option value="">
+                                        <option value="DYİ">
                                             DYİ
                                         </option>
                                     </select>
 
-                                    <input class="select-input register-input" type="text">
+                                    <input asp-for="CardSeria" class="select-input register-input" type="text">
                                     <span>8 rəqəmdən ibarət olmalıdır</span>
                                     <label for="">Telefon</label>
-                                    <select class="phone-prefix register-input" style="padding-top:7px;" name="" id="">
-                                        <option value="">+99450</option>
-                                        <option value="">+99451</option>
-                                        <option value="">+99455</option>
-                                        <option value="">+99470</option>
-                                        <option value="">+99477</option>
-                                        <option value="">+99499</option>
-                                        <option value="">+99460</option>
+                                    <select class="phone-prefix register-input" style="padding-top:7px;" name="" id="phonePrefix">
+                                        <option value="+99450">+99450</option>
+                                        <option value="+99451">+99451</option>
+                                        <option value="+99455">+99455</option>
+                                        <option value="+99470">+99470</option>
+                                        <option value="+99477">+99477</option>
+                                        <option value="+99499">+99499</option>
+                                        <option value="+99460">+99460</option>
                                     </select>
-                                    <input class="register-input" style="width:75%;" type="text">
+                                    <input asp-for="Phone" class="register-input" style="width:75%;" type="text">
 
                                 </div>
                                 <div class="col-6">
                                     <label for="">FIN kod<i class="fas fa-question-circle"></i></label>
-                                    <input class="register-input" type="text" style="margin-top:9px;">
+                                    <input asp-for="CardFinCode" class="register-input" type="text" style="margin-top:9px;">
                                     <span>Son 8 simvolun ilk 7 simvolunu daxil edin</span>
                                     <label for="">Email</label>
-                                    <input class="register-input" type="email" style="margin-top:7px;">
+                                    <input asp-for="Email" class="register-input" type="email" style="margin-top:7px;">
                                 </div>
                                 <div class="col-6">
                                     <label for="">Şifrə</label>
-                                    <input class="register-input" type="password">
+                                    <input asp-for="Password" class="register-input" type="password">
                                 </div>
                                 <div class="col-6">
                                     <label for="">Şifrənin təkrarı</label>
-                                    <input class="register-input" type="password">
+                                    <input asp-for="CheckPass" class="register-input" type="password">
                                     <span>Şifrənizi yenidən yazın</span>
                                 </div>
                             </div>
@@ -201,3 +197,27 @@
     </section>
 </main>
 
+@section Scripts{
+
+    <script>
+
+
+            
+                $(document).on("change", "#gender", function () {
+
+                    
+                    console.log($(this).val());
+                });
+        $(document).on("change", "#cardSeria", function () {
+
+
+            console.log($(this).val());
+        });
+        $(document).on("change", "#phonePrefix", function () {
+
+
+            console.log($(this).val());
+        });
+
+    </script>
+}

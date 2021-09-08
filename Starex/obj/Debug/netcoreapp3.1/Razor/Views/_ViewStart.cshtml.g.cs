@@ -19,8 +19,22 @@ using Starex;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\Code\Desktop\Starex-Backend\Starex\Views\_ViewImports.cshtml"
+using Starex.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\Code\Desktop\Starex-Backend\Starex\Views\_ViewImports.cshtml"
+using Starex.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f5369ddb8149ca7782912ce7604e77203f2e8e78", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8667c366791b0057d7075b5178e192edc7459277", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
